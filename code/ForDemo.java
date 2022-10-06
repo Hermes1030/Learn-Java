@@ -1,6 +1,6 @@
 public class ForDemo {
     public static void main(String[] args) {
-        // Ê¹ÓÃforÑ­»·Ö´ÐÐ5´Î Hello world
+        // ä½¿ç”¨forå¾ªçŽ¯æ‰§è¡Œ5æ¬¡ Hello world
         for(int i=1;i<=5;i++){
             System.out.println("Hello world");
         }

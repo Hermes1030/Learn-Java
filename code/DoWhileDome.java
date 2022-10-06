@@ -1,6 +1,6 @@
 public class DoWhileDome {
     public static void main(String[] args) {
-        // 使用DoWhile循环语句输出HelloWorld
+        // 浣跨敤DoWhile寰幆璇彞杈撳嚭HelloWorld
         int i = 1;
         do{
             System.out.println("Hello World");

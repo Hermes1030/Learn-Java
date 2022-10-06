@@ -5,7 +5,7 @@ public class ControlDemo {
                 // continue;
                 break;
             }
-        System.out.println(i);  // Êä³ö
+        System.out.println(i);  
         }
         
     }
