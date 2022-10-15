@@ -1,0 +1,371 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch StudentDemo",
+            "request": "launch",
+            "mainClass": "StudentDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhoneDemo",
+            "request": "launch",
+            "mainClass": "PhoneDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test10",
+            "request": "launch",
+            "mainClass": "Test10",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test09",
+            "request": "launch",
+            "mainClass": "Test09",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test08",
+            "request": "launch",
+            "mainClass": "Test08",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test07",
+            "request": "launch",
+            "mainClass": "Test07",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassTest01",
+            "request": "launch",
+            "mainClass": "ClassTest01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgsDemo01",
+            "request": "launch",
+            "mainClass": "ArgsDemo01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgsDemo02",
+            "request": "launch",
+            "mainClass": "ArgsDemo02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgsTest01",
+            "request": "launch",
+            "mainClass": "ArgsTest01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgsTest02",
+            "request": "launch",
+            "mainClass": "ArgsTest02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayDemo",
+            "request": "launch",
+            "mainClass": "ArrayDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayTest01",
+            "request": "launch",
+            "mainClass": "ArrayTest01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayTest02",
+            "request": "launch",
+            "mainClass": "ArrayTest02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayTest03",
+            "request": "launch",
+            "mainClass": "ArrayTest03",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayTest04",
+            "request": "launch",
+            "mainClass": "ArrayTest04",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayTest05",
+            "request": "launch",
+            "mainClass": "ArrayTest05",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ControlDemo",
+            "request": "launch",
+            "mainClass": "ControlDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoWhileDome",
+            "request": "launch",
+            "mainClass": "DoWhileDome",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForDemo",
+            "request": "launch",
+            "mainClass": "ForDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForForDemo",
+            "request": "launch",
+            "mainClass": "ForForDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForTest",
+            "request": "launch",
+            "mainClass": "ForTest",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForTest02",
+            "request": "launch",
+            "mainClass": "ForTest02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForTest03",
+            "request": "launch",
+            "mainClass": "ForTest03",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForTest04",
+            "request": "launch",
+            "mainClass": "ForTest04",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForTest05",
+            "request": "launch",
+            "mainClass": "ForTest05",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfDemo",
+            "request": "launch",
+            "mainClass": "IfDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfDemo02",
+            "request": "launch",
+            "mainClass": "IfDemo02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfDemo03",
+            "request": "launch",
+            "mainClass": "IfDemo03",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfTest01",
+            "request": "launch",
+            "mainClass": "IfTest01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfTest02",
+            "request": "launch",
+            "mainClass": "IfTest02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodDemo",
+            "request": "launch",
+            "mainClass": "MethodDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodDemo01",
+            "request": "launch",
+            "mainClass": "MethodDemo01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodDemo02",
+            "request": "launch",
+            "mainClass": "MethodDemo02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodTest",
+            "request": "launch",
+            "mainClass": "MethodTest",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodTest02",
+            "request": "launch",
+            "mainClass": "MethodTest02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodTest03",
+            "request": "launch",
+            "mainClass": "MethodTest03",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodTest04",
+            "request": "launch",
+            "mainClass": "MethodTest04",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodTest05",
+            "request": "launch",
+            "mainClass": "MethodTest05",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorDemo0",
+            "request": "launch",
+            "mainClass": "OperatorDemo0",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorDemo1",
+            "request": "launch",
+            "mainClass": "OperatorDemo1",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch OrderDemo",
+            "request": "launch",
+            "mainClass": "OrderDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomDemo",
+            "request": "launch",
+            "mainClass": "RandomDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomTest",
+            "request": "launch",
+            "mainClass": "RandomTest",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerDemo",
+            "request": "launch",
+            "mainClass": "ScannerDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerTest",
+            "request": "launch",
+            "mainClass": "ScannerTest",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwitchDemo",
+            "request": "launch",
+            "mainClass": "SwitchDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwitchTest",
+            "request": "launch",
+            "mainClass": "SwitchTest",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhileDemo",
+            "request": "launch",
+            "mainClass": "WhileDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhileTest",
+            "request": "launch",
+            "mainClass": "WhileTest",
+            "projectName": "JAVA_learn_e4a4d30a"
+        }
+    ]
+}
