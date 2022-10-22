@@ -32,6 +32,6 @@ public class RandomTest {
             }
         }
         
-        
+        inputed_user.close();
     }
 }

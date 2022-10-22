@@ -23,5 +23,8 @@ public class ScannerTest {
     int maxHeight = Switch > height3 ? Switch : height3;
 
     System.out.printf("三个和尚中最高的是：%d",maxHeight);
+
+    info.close();
+    
     }
 }

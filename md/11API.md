@@ -1,0 +1,19 @@
+### API(Application Programing Interface)
+
+概述：
+  
+> API (Application Programing Interface)应用程序编程接口
+
+Java API指的就是JDK中提供的各种功能的Java类，这些类将底层的实现封装起来，我们不需要关心这些类是如何实现的，如需要学习这些类如何使用即可，我们可以通过帮助文档来学习这些API如何使用
+
+#### API手册的使用
+
+  1. 打开该文档
+  2. 找到索引选项卡中的输入框
+  3. 在输入框中输入类名
+  4. 看类在哪个包下
+  5. 查看功能
+  6. 查看构造方法
+  7. 查看成员方法
+
+> ctrl +alt+v 自动生成返回变量类型

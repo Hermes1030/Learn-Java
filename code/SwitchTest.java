@@ -41,6 +41,6 @@ public class SwitchTest {
             default:
                 System.out.println("请输入正确的月份");
         }
-
+        sc.close();
     }
 }

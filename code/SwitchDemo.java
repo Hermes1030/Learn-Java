@@ -33,5 +33,6 @@ public class SwitchDemo {
                 break;
         }
 
+        week.close();
     }
 }

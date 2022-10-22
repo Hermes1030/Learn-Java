@@ -20,5 +20,6 @@ import java.util.Scanner;
         System.out.println(number + "ÊÇÆæÊı");
     }
 
+    sc.close();
     }
 }

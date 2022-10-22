@@ -32,6 +32,6 @@ public class IfDemo03 {
 
         System.out.println("½áÊø");
     
-
+        sc.close();
     }
 }

@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayListTest03",
+            "request": "launch",
+            "mainClass": "ArrayListTest03",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListTest02",
+            "request": "launch",
+            "mainClass": "ArrayListTest02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListTest01",
+            "request": "launch",
+            "mainClass": "ArrayListTest01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListDemo01",
+            "request": "launch",
+            "mainClass": "ArrayListDemo01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilderDemo04",
+            "request": "launch",
+            "mainClass": "StringBuilderDemo04",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilderDemo03",
+            "request": "launch",
+            "mainClass": "StringBuilderDemo03",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilderDemo02",
+            "request": "launch",
+            "mainClass": "StringBuilderDemo02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilderDemo01",
+            "request": "launch",
+            "mainClass": "StringBuilderDemo01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringTest05",
+            "request": "launch",
+            "mainClass": "StringTest05",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringTest04",
+            "request": "launch",
+            "mainClass": "StringTest04",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringTest03",
+            "request": "launch",
+            "mainClass": "StringTest03",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringTest02",
+            "request": "launch",
+            "mainClass": "StringTest02",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringTest01",
+            "request": "launch",
+            "mainClass": "StringTest01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
             "name": "Launch StudentDemo",
             "request": "launch",
             "mainClass": "StudentDemo",

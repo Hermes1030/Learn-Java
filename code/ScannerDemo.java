@@ -15,5 +15,7 @@ public class ScannerDemo {
         int info_receive = info.nextInt();
     
         System.out.println(info_receive);
+
+        info.close();
     }    
 }

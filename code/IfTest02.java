@@ -30,7 +30,7 @@ public class IfTest02 {
         }else{
             System.out.println("请输入正确的分数");
         }
-    
+        sc.close();
     }
     
 }
