@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StudentManager",
+            "request": "launch",
+            "mainClass": "Test11.StudentManager",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
             "name": "Launch ArrayListTest03",
             "request": "launch",
             "mainClass": "ArrayListTest03",
