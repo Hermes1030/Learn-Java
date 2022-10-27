@@ -1,7 +1,10 @@
 {
     "editor.codeActionsOnSave": {
-    "editor.fontSize": 15,
-    "terminal.integrated.shellArgs.windows": ["/K chcp 65001 >nul"],
-    "terminal.integrated.fontFamily": "Lucida Console"
+        "editor.fontSize": 15,
+        "terminal.integrated.shellArgs.windows": [
+            "/K chcp 65001 >nul"
+        ],
+        "terminal.integrated.fontFamily": "Lucida Console",
+        "console": "externalTerminal"
     }
 }

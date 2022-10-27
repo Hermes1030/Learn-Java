@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "Animal.Demo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "StudentAndTeacher.Demo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhoneDemo",
+            "request": "launch",
+            "mainClass": "FunReback.PhoneDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
             "name": "Launch StudentManager",
             "request": "launch",
             "mainClass": "Test11.StudentManager",
@@ -465,5 +493,6 @@
             "mainClass": "WhileTest",
             "projectName": "JAVA_learn_e4a4d30a"
         }
-    ]
+    ],
+    "console": "externalTerminal"
 }

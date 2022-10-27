@@ -1,4 +1,4 @@
-package JAVA_learn.test;
+package test;
 
 public class test {
     int a;

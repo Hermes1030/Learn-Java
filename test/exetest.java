@@ -1,4 +1,5 @@
-package JAVA_learn.test;
+package test;
+
 
 public class exetest {
     public static void main(String[] args) {

@@ -14,7 +14,7 @@ public class StudentManager {
             System.out.println("3 修改学生");
             System.out.println("4 查看所有学生");
             System.out.println("5 退出");
-            System.out.println("请输入你的选择：");
+            System.out.print("请输入你的选择：");
 
             Scanner sc = new Scanner(System.in);
             String line = sc.nextLine();
@@ -35,6 +35,7 @@ public class StudentManager {
                 case "5":
                     System.out.println("谢谢使用");
                     // break;
+                    // sc.close();
                     System.exit(0);
             }
         }
@@ -42,14 +43,15 @@ public class StudentManager {
     }
 
     public static void addStudent(ArrayList<Student> array) {
+
         Scanner sc = new Scanner(System.in);
-        System.out.println("请输入学生学号：");
+        System.out.print("请输入学生学号：");
         String sid = sc.nextLine();
-        System.out.println("请输入学生姓名：");
+        System.out.print("请输入学生姓名：");
         String name = sc.nextLine();
-        System.out.println("请输入学生年龄：");
+        System.out.print("请输入学生年龄：");
         String age = sc.nextLine();
-        System.out.println("请输入学生居住地：");
+        System.out.print("请输入学生居住地：");
         String address = sc.nextLine();
 
         Student s = new Student();
@@ -58,20 +60,28 @@ public class StudentManager {
         s.setSid(sid);
         s.setAddress(address);
 
-        if (array.size() == 0) {
-            if (array.add(s)) {
-                System.out.println("添加成功");
-            } else {
-                System.out.println("未知原因添加失败");
-            }
-        } else {
-            for (int i = 0; i < array.size(); i++) {
-                if (s.getSid().equals(array.get(i).getSid())) {
-                    System.out.println("该学号已存在，添加失败");
-                    break;
-                }
+        int targe = 0;
+        for(int i=0;i<array.size();i++){
+            if(s.getSid().equals(array.get(i).getSid())){
+                targe = -1;
+                break;
             }
         }
+        if(targe == 0){
+            if(array.add(s)){
+                System.out.println("添加成功");
+                return;
+            }else{
+                System.out.println("添加失败");
+                return;
+            }
+        }else{
+            System.out.println("该学号存在，添加失败");
+            return;
+        }
+
+
+
 
     }
 
@@ -85,20 +95,20 @@ public class StudentManager {
             return;
         }
 
+        int key = 0;
         for (int i = 0; i < array.size(); i++) {
             Student s = array.get(i);
-            if (!s.getSid().equals(num) && i == array.size() - 1) {
-                System.out.println("该学号不存在");
-                break;
-            }
             if (s.getSid().equals(num)) {
                 array.remove(i);
                 System.out.println("删除成功");
+                key = 1;
                 break;
             }
-
         }
-
+        if (key == 0) {
+            System.out.println("该学号不存在");
+            return;
+        }
     }
 
     public static void findAllStudent(ArrayList<Student> array) {
@@ -117,19 +127,12 @@ public class StudentManager {
         System.out.println("请输入修改学生的学号：");
         Scanner in = new Scanner(System.in);
         String num = in.nextLine();
-        
-        for (int a = 0; a < array.size(); a++) {
-            Student w = array.get(a);
-            if(!w.getSid().equals(num) && a==array.size()-1){
-                System.out.println("该学号不存在");
-                break;
-            }
-        }
 
+        int targe = -1;
         for (int i = 0; i < array.size(); i++) {
             Student s = array.get(i);
             if (s.getSid().equals(num)) {
-
+                targe = 0;
                 System.out.println("请重新输入学生姓名：");
                 String name = in.nextLine();
                 s.setName(name);
@@ -139,9 +142,14 @@ public class StudentManager {
                 System.out.println("请重新输入学生地址：");
                 String add = in.nextLine();
                 s.setAddress(add);
-
             }
-
+        }
+        if (targe == -1) {
+            System.out.println("修改失败，该学号不存在");
+            return;
+        } else {
+            System.out.println("修改成功");
+            return;
         }
     }
 }
