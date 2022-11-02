@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch love",
+            "request": "launch",
+            "mainClass": "ACM.love",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch work",
+            "request": "launch",
+            "mainClass": "ACM.work",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch work",
+            "request": "launch",
+            "mainClass": "work",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch aabb",
+            "request": "launch",
+            "mainClass": "code.aabb",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
             "name": "Launch Demo",
             "request": "launch",
             "mainClass": "Animal.Demo",

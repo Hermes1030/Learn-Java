@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import StudentAndTeacher.Student;
+
 /* 
 
 存储学生对象并遍历
@@ -43,8 +45,7 @@ public class ArrayListTest03 {
         // array.add(s2);
         // array.add(s3);
 
-        
-        for(int i=3;i>0;i--){
+        for (int i = 3; i > 0; i--) {
             addArray(array);
         }
 
@@ -61,8 +62,8 @@ public class ArrayListTest03 {
         System.out.println("请输入学生年龄：");
         String age = input.nextLine();
 
-        Student s = new Student(name, age);
-        array.add(s);
+        // Student s = new Student(name, age);
+        // array.add(s);
 
     }
 
