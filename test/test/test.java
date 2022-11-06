@@ -2,10 +2,11 @@
 public class test {
     int a;
 
-    public test(){
+    public test() {
         System.out.println("123");
-    }   // 初始化
-    public void test1(){
+    } // 初始化
+
+    public void test1() {
         System.out.println("456");
     }
 }

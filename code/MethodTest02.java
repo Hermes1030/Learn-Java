@@ -7,11 +7,12 @@ public class MethodTest02 {
         int b = 35;
         getMax(a, b);
     }
+
     // 方法定义
-    public static void getMax(int a, int b){
-        if (a>b){
+    public static void getMax(int a, int b) {
+        if (a > b) {
             System.out.println(a);
-        }else{
+        } else {
             System.out.println(b);
         }
     }

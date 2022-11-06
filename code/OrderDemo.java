@@ -4,6 +4,5 @@ public class OrderDemo {
         System.out.println("Óï¾äA");
         System.out.println("Óï¾äB");
         System.out.println("Óï¾äC");
-
     }
 }

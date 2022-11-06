@@ -20,24 +20,25 @@ public class StringTest05 {
             String charArr = input.nextLine();
             // String getChar = reBack(charArr);
             String getChar = reBack(charArr);
-            System.out.println("转换后的字符串："+getChar);
+            System.out.println("转换后的字符串：" + getChar);
         }
 
     }
-    public static String reBack(String charArr){
+
+    public static String reBack(String charArr) {
         String charStack = "";
-        for(int i=0;i<charArr.length();i++){
-            // System.out.println(charArr.charAt(len - i -1)); 
-            charStack += charArr.charAt(charArr.length() - i -1);
+        for (int i = 0; i < charArr.length(); i++) {
+            // System.out.println(charArr.charAt(len - i -1));
+            charStack += charArr.charAt(charArr.length() - i - 1);
         }
         return charStack;
     }
 }
-/* 
+/*
  * 
- *  代码改进：
- *           遍历方法
- *           for(int i=charArr.length-1;i>=0;i--){
- *               charStack += charArr.charAt(i)
- *           }
- */ 
+ * 代码改进：
+ * 遍历方法
+ * for(int i=charArr.length-1;i>=0;i--){
+ * charStack += charArr.charAt(i)
+ * }
+ */

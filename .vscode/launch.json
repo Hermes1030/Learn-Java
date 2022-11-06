@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringDemo01",
+            "request": "launch",
+            "mainClass": "StringDemo01",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch exetest",
+            "request": "launch",
+            "mainClass": "exetest",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
             "name": "Launch love",
             "request": "launch",
             "mainClass": "ACM.love",

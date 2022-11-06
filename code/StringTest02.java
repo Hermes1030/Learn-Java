@@ -20,28 +20,28 @@ import java.util.Scanner;
  *          
  */
 
-
 public class StringTest02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("请输入一个字符串：");
         String line = input.nextLine();
-        
-        
+
         // 遍历字符串，首先能够获取到字符串中的每个值
-        
-        /* System.out.println(line.charAt(0));
-        System.out.println(line.charAt(1));
-        System.out.println(line.charAt(2));
-        for(int i=0;i<3;i++){
-            System.out.println(line.charAt(i));
-        } */
-        
+
+        /*
+         * System.out.println(line.charAt(0));
+         * System.out.println(line.charAt(1));
+         * System.out.println(line.charAt(2));
+         * for(int i=0;i<3;i++){
+         * System.out.println(line.charAt(i));
+         * }
+         */
+
         // 遍历字符串，其次获取字符串的长度
         // System.out.println(line.length());
 
-        for(int i = 0;i<line.length();i++){
+        for (int i = 0; i < line.length(); i++) {
             System.out.println(line.charAt(i));
         }
         input.close();

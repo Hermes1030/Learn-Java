@@ -15,8 +15,8 @@ public class StringBuilderDemo01 {
 }
 /*
  * result:
- * Hello World
- * 11
- * Hello World Hello JavaHello PHPHello Python
- * It's was reversed:  nohtyP olleHPHP olleHavaJ olleH dlroW olleH
+ *  Hello World
+ *  11
+ *  Hello World Hello JavaHello PHPHello Python
+ *  It's was reversed:  nohtyP olleHPHP olleHavaJ olleH dlroW olleH
  */

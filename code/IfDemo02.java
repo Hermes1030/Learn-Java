@@ -12,7 +12,6 @@ public class IfDemo02 {
         } else {
             System.out.println("a<b");
         }
-
         System.out.println("½áÊø");
     }
 }
