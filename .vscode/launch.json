@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InterfaceDemo",
+            "request": "launch",
+            "mainClass": "interface01.InterfaceDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JumppingDemo",
+            "request": "launch",
+            "mainClass": "Interface.JumppingDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnimalDemo",
+            "request": "launch",
+            "mainClass": "AbstractCatandDog.AnimalDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnimalDemo",
+            "request": "launch",
+            "mainClass": "Abstract02.AnimalDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnimalDemo",
+            "request": "launch",
+            "mainClass": "Abstract01.AnimalDemo",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
+            "name": "Launch encrypt",
+            "request": "launch",
+            "mainClass": "ACM.encrypt",
+            "projectName": "JAVA_learn_e4a4d30a"
+        },
+        {
+            "type": "java",
             "name": "Launch StringDemo01",
             "request": "launch",
             "mainClass": "StringDemo01",
