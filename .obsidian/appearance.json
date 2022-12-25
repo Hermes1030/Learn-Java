@@ -1,4 +1,14 @@
 {
   "accentColor": "",
-  "theme": "moonstone"
+  "theme": "obsidian",
+  "cssTheme": "",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
+  "baseFontSize": 16,
+  "nativeMenus": false,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "font"
+  ]
 }
